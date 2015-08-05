@@ -1,0 +1,37 @@
+/*CSS*/
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Bitstream Vera Serif Bold", serif
+}
+
+h1{
+    color: blue;
+}
+h2{
+    font-size: 14px;
+}
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+p{
+    background: black;
+    color: yellow;
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: left;
+    text-indent: 2em;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    white-space: pre;
+    line-height: 20px;
+}
+.strong{
+    color: red;
+}
+img{
+    border: 2px solid red;
+}

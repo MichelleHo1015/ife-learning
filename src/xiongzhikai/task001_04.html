@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .wrap{
+            width: 100%;
+            position: relative;
+        }
+        .item{
+            float: left;
+            height: 100px;
+            width: 100px;
+            background: blue;
+            margin:20px 30px;
+        }
+        /*第一种布局方法*/
+        .content{
+            float: left;
+            height: auto;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: 200px;
+            background: red;
+
+        }
+        .left{
+            float: left;
+            width: 100px;
+            height: 600px;
+            background: yellow;
+        }
+        .right{
+            float: right;
+            width: 200px;
+            height: 600px;
+            background: black;
+        }
+        /*第二种布局方法*/
+        .content1{
+
+            margin-top: 30px;
+            overflow: hidden;
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="left"></div>
+    <div class="content">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div style="clear: both;display: none"></div>
+    </div>
+    <div class="right"></div>
+</div>
+
+
+<div class="content1">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+
+</body>
+</html>

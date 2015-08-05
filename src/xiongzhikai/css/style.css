@@ -1,0 +1,220 @@
+/*index:CSS*/
+*{padding: 0;margin: 0;}
+body{
+    font-family: "Microsoft YaHei";
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 40px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    /*height: 0;*/
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+#header_nav a:first-child{
+    color: aqua;
+}
+a:hover{
+    color: aqua;
+}
+/*header*/
+header{
+    background: #522a5c;
+    width: 100%;
+    min-width: 980px;
+    height: 80px;
+    position: relative;
+}
+.wrap{
+    width:  980px;
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+}
+#header .wrap{
+    height: 80px;
+}
+#logo{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#header_nav{
+    width: 340px;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+#icon{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+/*banner*/
+#banner{
+    width: 100%;
+    min-width: 980px;
+    height: 460px;
+    background: url("../img/banner-bg.jpg") no-repeat ;
+    position: relative;
+    background-size: 100% 100%;
+}
+#banner .wrap{
+    height: 150px;
+    bottom: 0px;
+}
+#banner_content{
+    position: absolute;
+    width: 340px;
+    overflow: hidden;
+    right: 15px;
+    /*background:rgba(254,254,254,0.2);*/
+    border-radius: 10px;
+    background: linear-gradient(top, rgba(254,254,254,0.7) 0%, rgba(254,254,254,0.5) 50%,rgba(254,254,254,0.3) 100%);
+    background: -moz-linear-gradient(top, rgba(254,254,254,0.7) 0%, rgba(254,254,254,0.5) 50%,rgba(254,254,254,0.3) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,0.7) 0%, rgba(254,254,254,0.5) 50%,rgba(254,254,254,0.3) 100%);
+    background: -webkit-linear-gradient(top, rgba(254,254,254,0.5) 0%, rgba(254,254,254,0.3) 50%,rgba(254,254,254,0.1) 100%);
+    color: white;
+    /*filter: alpha(opacity = 30);*/
+    /*-moz-opacity: 0.3;*/
+    /*opacity: 0.3;*/
+}
+#banner_content h1{
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+}
+#banner_content p{
+    line-height: 150%;
+    font-size: 12px;
+    padding: 10px 10px 30px 10px;
+}
+
+/*content*/
+#content{
+    width: 100%;
+    min-width: 980px;
+    text-align: center;
+    margin:0 auto;
+    background: #eeeeee;
+}
+#content_top{
+    width: 100%;
+    min-width: 980px;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.content_top_wrap{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    background: #ffffff;
+
+}
+.content_item{
+    float: left;
+    width: 320px;
+}
+.content_item_separator{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: #eeeeee;
+}
+.content_item_separator1{
+    left: 320px;
+}
+.content_item_separator2{
+    left: 640px;
+}
+.content_item img{
+    width: 290px;
+    padding:15px 15px;
+}
+.content_item p{
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 170%;
+    margin:15px 20px 30px 25px;
+}
+#content_bottom{
+    min-width: 980px;
+    text-align: center;
+}
+#headProtrit{
+    width: 160px;
+    height: 160px;
+    border-radius: 99px;
+    position: relative;
+    top: -50px;
+}
+#content_bottom h1{
+    font-size: 20px;
+    font-family:Century Gothic;
+}
+#content_bottom p{
+    width: 600px;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 24px;
+
+}
+
+/*footer*/
+#footer{
+    background: #000;
+    text-align: center;
+    width: 100%;
+    min-width: 980px;
+    position: relative;
+    overflow: auto;
+    margin-top: 100px;
+}
+#footer p:first-child{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+#footer hr{
+    border-color: #666666;
+}
+#footer_wrap{
+    /*position: absolute;*/
+    width: 980px;
+    height: 200px;
+    margin: auto;
+}
+.footer_item{
+    float: left;
+    color: aliceblue;
+    margin-left: 40px;
+}
+#footer .footer_item a{
+    line-height: 20px;
+}
+#footer .footer_item p:nth-child(2){
+    margin-top: 10px;
+}
+#footer .footer_item a:hover{
+    text-decoration: underline;
+}
+#copyright{
+    color: aliceblue;
+    clear: both;
+}
+
+/*blog:CSS*/

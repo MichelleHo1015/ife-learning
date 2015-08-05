@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task001_01</title>
+    <link rel="stylesheet" href="css/task001_01.css"/>
+</head>
+<body>
+<h1>我的GitHub账号：http://github.com/xiongzhikai</h1>
+<ul>
+    <li><a href="http://github.com/xiongzhikai/ife-learning">homePage</a></li>
+    <li><a href="#pic">指向图片</a></li>
+</ul>
+<h2>二级标题</h2>
+<p><strong>所说的内容随意：</strong>1.
+    if(diff === "cd"){
+    function a(){
+    var message ="hi";
+    }
+    console.log(message);
+    }
+    在js的严格标准中，不允许函数出现上面那种情况，函数只能在其他函数多内部或者在程序的顶级，因此上例在ECMAScrip里时非法的。
+
+    2.在使用typeof Object的时候，返回的是function，而不是object。同样使用typeof RegExp//正则类型。返回的是function，也不是Object。
+
+    3.Number(“0x212.0”)//530
+    Number(“212.0”)//212
+    Number("0x212.01”)//NaN
+    在js中不接受十六进制和八进制的数字有小数
+
+    4.parseInt(21,16)//33
+    parseInt（）第二个参数是指定转换为几进制的数。
+    但是parseFloat（）只能解析十进制数，所以后面只有一个参数。
+
+    5.toString(2)//输出为二进制
+    toString(8)//八进制
+    。
+    。
+
+    6.
+    var b =new Boolean(false)//b是一个Boolean对象，b的值是false。但是使用判断的时候，对象都返回true。
+    !!b//true
+    c = (true) && b
+    //c是Boolean {[[PrimitiveValue]]: false}。这时候是c ＝ b
+    ，c是一个Boolean对象。
+    c = b && true.//c = true.c返回的是第二个操作数。
+    一切对象的求值结果都是true。也就是说对象通过Boolean（）转型的话都是true。
+    逻辑与操作原则：
+    1）如果第一个操作数是对象，则返回第二个操作数。
+    2）如果第二个操作数是对象，则只有第一个操作数的求值结果为true的时候才返回该对象
+    3）如果两个操作数都是对象，则返回第二个操作数。
+    4）如果有一个操作数是null。则返回null。
+    5）如果有一个操作数是NaN，则返回NaN。
+    6）如果有一个操作数是undefined,则返回undefined.
+    逻辑或操作原则：
+    1）如果第一个操作数是对象，则返回第一个操作数。
+    2）如果第一个操作数的求值结果是false，则返回第二个操作数。
+    3）如果两个操作数都是对象，则返回第一个操作数。
+    4）如果两个操作数都是null，则返回null。
+    5）如果两个操作数都是NaN，则返回NaN。
+    6）如果两个操作数都是undefined，则返回undefined。
+
+    28 % Infinity
+    //28
+    Infinity % 28
+    //NaN
+    23 % 0
+    //NaN
+
+    7.比较运算符：<、>
+    1）如果两个操作数都是数值，就进行比较。
+    2）如果两个操作数都是字符串，就转化为对应对Unicode值进行比较。
+    如：”23” < “3” //true.这时主要比较的是Unicode值。
+    3）如果一个操作数是数值，就会将另一个操作数转换为一个数值，然后执行数值比较。
+    如：”23”  <  3 //false，这时会将字符串“23”通过Number（）转型函数进行转换，变为数值23，23大于3.
+    4）如果一个操作数是对象，则调用这个对象的valueof（），如果没有valueof（），就调用toString（）。
+    var result1 = NaN < 3; //false
+    var result2 = NaN >= 3; //false
+    var result = "a" < 3; // false因为”a”被转换为 NaN
+
+    8.相等操作符：＝＝
+    1）如果一个操作数是字符串，另一个操作数是数值，在比较前会先把字符串转换为数值。
+    2）如果一个操作数是对象，另一个不是，就会调用valueof（），在进行比较。
+    3）undefined ＝＝ null//true.undefined和null不能转换为其他值，不能转换为0.
+    4）如果有一个操作数是NaN，着相等操作符返回false。即使两个都是NaN，也是不等的。
+    5）如果两个操作数都是对象，则比较它们是不是指向同一个对象。</p>
+<img id="pic" src="img/task0001_1.jpg"/>
+</body>
+</html>
