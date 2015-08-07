@@ -2,9 +2,255 @@
 <html>
 <head lang="cn">
     <meta charset="UTF-8">
-    <title></title>
+    <title>个人主页</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/blog.css"/>
 </head>
 <body>
+<div id="header-wrapper">
+    <header class="clearfix">
+        <img src="img/ririjin-logo.png" alt="logo" id="header-logo"/>
+        <ul id="header-nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="blog.html">文章</a></li>
+            <li><a href="gallery.html">作品</a></li>
+            <li><a href="about.html">关于</a></li>
+        </ul>
+    </header>
+    <img src="img/icon-github.png" alt="github-logo" id="header-github"/>
+</div>
+
+<div class="content-wrapper clearfix">
+    <div id="main-content">
+        <div class="blog">
+            <div class="blog-flag-wrapper">
+                <div class="blog-flag-publish-date">
+                    8.6
+                </div>
+                <div class="blog-flag-article-type">
+                    CSS
+                </div>
+            </div>
+            <h2 class="blog-title">
+                文章标题
+            </h2>
+            <h4 class="blog-subtitle">
+                文章副标题
+            </h4>
+            <section class="blog-content">
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p class="blog-publish-date">
+                    rainsight 发表于 2015年8月6日
+                </p>
+            </section>
+        </div>
+        <div class="blog">
+            <div class="blog-flag-wrapper">
+                <div class="blog-flag-publish-date">
+                    8.6
+                </div>
+                <div class="blog-flag-article-type">
+                    CSS
+                </div>
+            </div>
+            <h2 class="blog-title">
+                文章标题
+            </h2>
+            <h4 class="blog-subtitle">
+                文章副标题
+            </h4>
+            <section class="blog-content">
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p>这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，这里是正文，</p>
+                <p class="blog-publish-date">
+                    rainsight 发表于 2015年8月6日
+                </p>
+            </section>
+        </div>
+
+
+        <ul id="pager">
+            <li><a href="#">第一页</a></li>
+            <li><a href="#">上一页</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">...</a></li>
+            <li><a href="#">下一页</a></li>
+            <li><a href="#">最后页</a></li>
+        </ul>
+    </div>
+
+    <div id="side-bar">
+        <div id="search-bar">
+            <input type="text" placeholder="Keywords"/>
+            <button type="submit">
+                GO
+            </button>
+        </div>
+        <nav>
+            <ul id="article-type-nav">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">其他文章</a></li>
+            </ul>
+        </nav>
+
+        <div id="calendar">
+            <div id="calendar-nav">
+                <a id="calendar-prev-page" href="#">&lt;</a>
+                <span id="calendar-current-date">2015.08</span>
+                <a id="calendar-next-page" href="#">&gt;</a>
+            </div>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">M</a></li>
+                <li class="calendar-day"><a href="#">T</a></li>
+                <li class="calendar-day"><a href="#">W</a></li>
+                <li class="calendar-day"><a href="#">T</a></li>
+                <li class="calendar-day"><a href="#">F</a></li>
+                <li class="calendar-day"><a href="#">S</a></li>
+                <li class="calendar-day"><a href="#">S</a></li>
+            </ul>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">1</a></li>
+                <li class="calendar-day"><a href="#">2</a></li>
+                <li class="calendar-day"><em><a href="#">3</a></em></li>
+                <li class="calendar-day"><a href="#">4</a></li>
+                <li class="calendar-day"><a href="#">5</a></li>
+                <li class="calendar-day"><a href="#">6</a></li>
+                <li class="calendar-day"><a href="#">7</a></li>
+            </ul>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">1</a></li>
+                <li class="calendar-day"><a href="#">2</a></li>
+                <li class="calendar-day"><em><a href="#">3</a></em></li>
+                <li class="calendar-day"><a href="#">4</a></li>
+                <li class="calendar-day"><a href="#">5</a></li>
+                <li class="calendar-day"><a href="#">6</a></li>
+                <li class="calendar-day"><a href="#">7</a></li>
+            </ul>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">1</a></li>
+                <li class="calendar-day"><a href="#">2</a></li>
+                <li class="calendar-day"><em><a href="#">3</a></em></li>
+                <li class="calendar-day"><a href="#">4</a></li>
+                <li class="calendar-day"><a href="#">5</a></li>
+                <li class="calendar-day"><a href="#">6</a></li>
+                <li class="calendar-day"><a href="#">7</a></li>
+            </ul>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">1</a></li>
+                <li class="calendar-day"><a href="#">2</a></li>
+                <li class="calendar-day"><em><a href="#">3</a></em></li>
+                <li class="calendar-day"><a href="#">4</a></li>
+                <li class="calendar-day"><a href="#">5</a></li>
+                <li class="calendar-day"><a href="#">6</a></li>
+                <li class="calendar-day"><a href="#">7</a></li>
+            </ul>
+            <ul class="calendar-row clearfix">
+                <li class="calendar-day"><a href="#">1</a></li>
+                <li class="calendar-day"><a href="#">2</a></li>
+                <li class="calendar-day"><em><a href="#">3</a></em></li>
+                <li class="calendar-day"><a href="#">4</a></li>
+            </ul>
+        </div>
+
+        <div id="tags">
+            <h6 id="tags-title">Tags</h6>
+            <div id="tags-content">
+                <em><a href="#">JavaScript</a></em>
+                <small><a href="#">aaaaa</a></small>
+                <i><a href="#">CSS</a></i>
+                <span><a href="#">flex</a></span>
+                <small><a href="#">aaa</a></small>
+                <em><a href="#">JavaScript</a></em>
+                <span><a href="#">WebGL</a></span>
+                <em><a href="#">HTML</a></em>
+                <span><a href="#">Canvas</a></span>
+                <i><a href="#">CSS</a></i>
+                <i><a href="#">CSS</a></i>
+                <span><a href="#">Canvas</a></span>
+                <span><a href="#">Canvas</a></span>
+                <small><a href="#">aaa</a></small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id="footer-nav-wrapper">
+        <ul id="footer-nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="blog.html">文章</a></li>
+            <li><a href="gallery.html">作品</a></li>
+            <li><a href="about.html">关于</a></li>
+        </ul>
+    </div>
+    <div id="friend-link-wrapper" class="clearfix">
+        <div class="friend-link">
+            <h5 class="friend-link-title">友情链接</h5>
+            <ul class="friend-link-content">
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINk</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+        <div class="friend-link">
+            <h5 class="friend-link-title">友情链接</h5>
+            <ul class="friend-link-content">
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINk</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+        <div class="friend-link">
+            <h5 class="friend-link-title">友情链接</h5>
+            <ul class="friend-link-content">
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINk</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+        <div class="friend-link">
+            <h5 class="friend-link-title">友情链接</h5>
+            <ul class="friend-link-content">
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINk</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+        <div class="friend-link">
+            <h5 class="friend-link-title">友情链接</h5>
+            <ul class="friend-link-content">
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINK</a></li>
+                <li><a href="#">LINk</a></li>
+                <li><a href="#">LINK</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <p>版权信息</p>
+        <img src="img/icon-github.png" alt="github-logo"/>
+    </div>
+</footer>
 
 </body>
 </html>

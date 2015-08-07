@@ -1,7 +1,6 @@
-.clearfix::before, .clearfix::after {
-    display: table;
-    content: " ";
-    clear:both;
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 html {
     font-size: 12px;
@@ -15,10 +14,23 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+    font-style: normal;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
+
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: " ";
+    clear:both;
+}
+
+.content-wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
 #header-wrapper {
     position: relative;
     min-width: 980px;
@@ -215,6 +227,9 @@ footer {
     width: 980px;
     margin: 0 auto 50px;
     text-align: left;
+}
+#friend-link-wrapper a:hover {
+    text-decoration: underline;
 }
 .friend-link {
     width: 190px;
