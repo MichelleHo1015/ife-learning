@@ -1,0 +1,139 @@
+h1{
+    color:blue;
+}
+h2{
+    font-size: 14px;
+}
+p{
+  font-size: 12px;
+    color:yellow;
+    background-color: black;
+    width:400px;
+}
+img{
+    border: 2px solid red;
+}
+.center1{
+    height:50px;
+    background-color: red;
+    width:960px;
+    margin:0 auto;
+}
+.center{
+    display: inline-block;
+    height:50px;
+    background-color: blue;
+    width:960px;
+}
+.wrap{
+    text-align: center;
+}
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #999;border-right:1px solid #999;}
+.b1,.b1b{margin:0 5px;background:#999;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#F7F8F9;}
+.k {height:300px;}
+#container{
+    width:auto;
+    height:300px;
+    background-color: red;
+    overflow:scroll;
+}
+.box{
+    width:100px;
+    height:60px;
+    border:1px solid blue;
+    background-color: blue;
+    margin:5px 10px 0 0 ;
+    float: left;
+}
+#wrap{
+
+    margin: 50px 0 0 0 ;
+}
+#left{
+    height:500px;
+    background-color: red;
+    width: 300px;
+    float: left;
+}
+#right{
+    height:500px;
+    background-color: blue;
+    width: 300px;
+    float:right;
+
+}
+.clr{
+    clear:both;
+}
+#center{
+    height:500px;
+    background-color: yellow;
+    margin:0 310px;
+
+}
+.wrap2{
+    display: flex;
+    align-items: flex-end;
+}
+.wrap2 .left2{
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 500px;
+    background:blue;
+    flex-grow: 0;
+}
+.wrap2 .right2{
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height:500px;
+    background: yellow;
+    flex-grow: 0;
+}
+.wrap2 .center2{
+    margin: 0 10px;
+    width: auto;
+    height: 500px;
+    background: red;
+    flex-grow: 1;
+}
+.wrap3{
+    display: flex;
+    margin:30px 0 0 0 ;
+}
+.wrap3 .left3{
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height:500px;
+    background: yellow;
+    flex-grow: 0;
+}
+.wrap3 .right3{
+    margin: 0 10px;
+    width: auto;
+    height: 500px;
+    background: red;
+    flex-grow: 1;
+}
+.wrap4{
+    margin:30px 0 0 0 ;
+}
+.wrap4 .left4{
+    height:300px ;
+    background-color: black;
+    float: left;
+    width: 300px;
+}
+.wrap4 .right4{
+    height:300px ;
+    background-color:pink;
+
+}
